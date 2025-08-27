@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyMemeCacheConsole"
+version = "0.1.0"
+description = "A simple Memcached client console"
+authors = [{ name="Sourav Chaurasia", email="mr.sourav.raj@gmail.com" }]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+pmcc = "pymemecacheconsole.cli:main"
