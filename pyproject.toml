@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyMemeCacheConsole"
+name = "PyMemCacheConsole"
 version = "0.1.0"
 description = "A simple Memcached client console"
 authors = [{ name="Sourav Chaurasia", email="mr.sourav.raj@gmail.com" }]
@@ -13,4 +13,4 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-pmcc = "pymemecacheconsole.cli:main"
+pmcc = "pymemcacheconsole.cli:main"

@@ -1,4 +1,4 @@
-PyMemeCacheConsole
+PyMemCacheConsole
 ===================
 
 A minimal Python library and CLI client for Memcached.
@@ -27,9 +27,9 @@ Usage
 -----
 Run as a module without installing:
 ```bash
-python -m pymemecacheconsole.cli -?              # help
-python -m pymemecacheconsole.cli -H localhost -p 11211 set mykey myvalue
-python -m pymemecacheconsole.cli --host localhost --port 11211 get mykey
+python -m pymemcacheconsole.cli -?              # help
+python -m pymemcacheconsole.cli -H localhost -p 11211 set mykey myvalue
+python -m pymemcacheconsole.cli --host localhost --port 11211 get mykey
 ```
 
 After installing, use the `pmcc` command:
@@ -56,7 +56,7 @@ pytest -q
 Project Layout
 --------------
 ```
-pymemecacheconsole/
+pymemcacheconsole/
   __init__.py
   cli.py
   client.py

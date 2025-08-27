@@ -2,7 +2,7 @@ import socket
 import threading
 import time
 
-from pymemecacheconsole.client import MemcachedClient
+from pymemcacheconsole.client import MemcachedClient
 
 
 def start_fake_server(responses, host="localhost", port=11212):

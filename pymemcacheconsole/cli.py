@@ -76,7 +76,7 @@ def main() -> None:
                 print(f"{v.key} => {v.value}")
         else:
             print("(nil)")
-   
+  
 if __name__ == "__main__":
     main()
 

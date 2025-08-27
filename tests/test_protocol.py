@@ -1,5 +1,5 @@
-from pymemecacheconsole.models import StorageCommand, RetrievalCommand
-from pymemecacheconsole.protocol import (
+from pymemcacheconsole.models import StorageCommand, RetrievalCommand
+from pymemcacheconsole.protocol import (
     serialize_storage,
     deserialize_storage,
     serialize_retrieval,

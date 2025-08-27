@@ -1,4 +1,4 @@
-"""PyMemeCacheConsole package."""
+"""PyMemCacheConsole package."""
 
 from .client import MemcachedClient
 
